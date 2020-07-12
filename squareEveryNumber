@@ -1,0 +1,10 @@
+function squareDigits(num){
+  //may the code be with you
+  let numString = num.toString(); 
+  let numArray = [];
+  
+  for (let i = 0; i < numString.length; i++) {
+    numArray[i] = Math.pow(parseInt(numString[i]),2);
+  }
+  return numString = parseInt(numArray.join(""));
+}
